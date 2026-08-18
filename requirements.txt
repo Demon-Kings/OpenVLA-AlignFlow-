@@ -1,0 +1,30 @@
+# OpenVLA‑AlignFlow requirements.txt
+python>=3.10,<3.12
+
+# 深度学习核心
+torch>=2.4.0
+torchvision>=0.19.0
+
+# 大模型 & 多模态
+transformers>=4.45.0
+einops>=0.8.0
+
+# 数据集读取 BridgeData v2 TFRecords
+tensorflow>=2.15.0
+tfds-nightly
+protobuf>=3.20.0,<4.0.0
+
+# 数值计算、科学计算
+numpy>=1.26.0
+scipy>=1.13.0
+
+# 图像处理
+Pillow>=10.2.0
+
+# 实验日志、工具
+tqdm>=4.66.0
+wandb>=0.17.0
+
+# 类型提示、配置工具
+pyyaml>=6.0
+typing-extensions>=4.12.0
